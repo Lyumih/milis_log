@@ -1,6 +1,6 @@
 #FIXME change file name to actual app name
 #FIXME change to actual app name
-name: $milis_log_app
+name: $milis_log
 
 #FIXME optional: change permissions if you don't want to allow everything
 # https://docs.github.com/en/actions/using-jobs/assigning-permissions-to-jobs#defining-access-for-the-github_token-permissions
@@ -22,14 +22,6 @@ jobs:
               with:
                   package: 'milis/log' #FIXME namespace of this package
                   modules: 'demo' #FIXME which modules to build, remove line if only on module at the root
-
-            #FIXME remove one of the following
-
-            - uses: JS-DevTools/npm-publish@v1
-              if: github.ref == 'refs/heads/master'
-              with:
-                  token: ${{ secrets.NPM_AUTH_TOKEN }}
-                  package: ./mol/template/app/-/package.json #FIXME path to build module
 
             - uses: hyoo-ru/gh-deploy@v4.4.1
               if: github.ref == 'refs/heads/master'
