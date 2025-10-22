@@ -1,5 +1,5 @@
 $milis_log_demo $mol_example_small
-	title \Logging in console for arguments in results functions
+	title \$milis_log
 	sub /
 		<= Layout $mol_list rows /
 			<= Info $mol_text text \
