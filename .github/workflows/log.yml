@@ -34,4 +34,4 @@ jobs:
             - uses: hyoo-ru/gh-deploy@v4.4.1
               if: github.ref == 'refs/heads/master'
               with:
-                  folder: 'milis/log/-' #FIXME path to build app
+                  folder: 'milis/log/demo/-' #FIXME path to build app
