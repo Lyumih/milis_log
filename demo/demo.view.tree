@@ -2,7 +2,9 @@ $milis_log_demo $mol_example_small
 	title \Logging in console for arguments in results functions
 	sub /
 		<= Layout $mol_list rows /
-			<= 
+			<= Info $mol_text text \
+				\# Быстрое логирование функций
+				\
 			<= Input_label $mol_labeler
 				title \Откройте консоль и начните вводить текст
 				content /
