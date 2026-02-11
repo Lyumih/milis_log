@@ -1,0 +1,10 @@
+{
+	"name": "milis_log_demo",
+	"short_name": "milis_log_demo",
+	"description": "",
+	"id": "milis_log_demo",
+	"start_url": ".",
+	"display": "standalone",
+	"background_color": "#000000",
+	"theme_color": "#000000"
+}
