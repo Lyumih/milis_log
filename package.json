@@ -214,6 +214,7 @@
     "$mol_expander",
     "$mol_string",
     "$mol_hotkey",
+    "$mol_hotkey2",
     "$mol_labeler",
     "$mol_textarea"
   ],
